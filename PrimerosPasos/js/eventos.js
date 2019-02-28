@@ -14,12 +14,10 @@ boton.addEventListener('click', ()=> {
 });
 
 var tiempo = setInterval(()=>{
-		console.log('1');
 	var head = document.querySelector("h1");
-
 	if(head.style.fontSize == "50px"){
 		head.style.fontSize = "30px";
 	}else{
 		head.style.fontSize = "50px";
 	}
-}, 1000);
+}, 3000);
